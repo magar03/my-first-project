@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>リンクの種類サンプル</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #section2 {
+            margin-top: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTMLのリンク種類まとめ</h1>
+
+    <!-- 1. 外部リンク -->
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">外部サイト（Google）へリンク</a>
+
+    <!-- 2. 内部リンク（同じサイト内のページ） -->
+    <a href="./sample.html">サイト内の別ページへリンク（例: /sample.html）</a>
+
+    <!-- 3. ページ内リンク（id付き要素へのジャンプ） -->
+    <a href="#section2">このページのセクション2へジャンプ</a>
+
+    <!-- 4. メールリンク -->
+    <a href="mailto:h.hasegawa@occ.ac.jp">メールを送る</a>
+
+    <!-- 5. 電話リンク（スマホでタップして発信） -->
+    <a href="tel:0123456789">電話をかける</a>
+
+    <!-- 6. ファイルダウンロードリンク -->
+    <a href="./sample.pdf" download>PDFファイルをダウンロード</a>
+
+    <!-- 8. 相対パスリンク -->
+    <a href="../index.html">相対パスで上の階層のindex.htmlへリンク</a>
+
+    <!-- 9. 空リンク（未実装のボタンなど） -->
+    <a href="#">ダミーリンク（何もしない）</a>
+
+    <!-- 10. メディアリンク（動画や音声など） -->
+    <a href="video.mp4">動画ファイル（video.mp4）にリンク</a>
+
+    <!-- セクション2のダミー -->
+    <h2 id="section2">セクション2</h2>
+    <p>ここはページ内リンクのジャンプ先です。</p>
+
+</body>
+
+</html>

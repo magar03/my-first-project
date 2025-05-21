@@ -1,0 +1,13 @@
+.tile{
+    background-color: rebeccapurple;
+}
+.picture {
+    background-color: pink;
+}
+img{
+    max-width: 100%
+    width:100%
+}
+.box{
+    width: 30%;
+}
